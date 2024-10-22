@@ -1,0 +1,20 @@
+# Ignorer le fichier .env car il contient des informations sensibles
+.env
+
+# Ignorer les fichiers et dossiers temporaires
+*.log
+*.tmp
+*.cache
+
+# Ignorer les fichiers spécifiques aux éditeurs de texte et aux environnements
+.vscode/
+.idea/
+*.swp
+
+# Ignorer les fichiers générés par le système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+vendor/
+node_modules/

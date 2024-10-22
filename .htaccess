@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /training/
+
+# Si le fichier ou le répertoire existe, ne pas rediriger la requête
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Sinon, rediriger toutes les requêtes vers index.php
+RewriteRule ^ index.php [QSA,L]
