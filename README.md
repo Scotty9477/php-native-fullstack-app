@@ -12,6 +12,9 @@ The **`FormBuilder`** allows you to dynamically create HTML forms without repeat
 
 The **`.env`** loader allows you to store sensitive information (such as database credentials) in a separate file. These values are then loaded into environment variables and are accessible throughout the project.
 
+### 3. Simple PHP router
+The project includes a **`simple PHP router`** that allows routing requests to different controllers and views easily.
+
 ## Installation
 
 1. Clone the repository:
