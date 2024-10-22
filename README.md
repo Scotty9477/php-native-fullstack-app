@@ -30,9 +30,12 @@ The **`.env`** loader allows you to store sensitive information (such as databas
 
    ```
    # Example .env file
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASS=secret
+   DATABASE_PROVIDER=mysql
+   DATABASE_HOST=127.0.0.1
+   DATABASE_PORT=3306
+   DATABASE_NAME=DB42
+   DATABASE_USER=root
+   DATABASE_PASSWORD=azerty
    ```
 
 ## Usage
